@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android应用默认不能使用http上网，启用允许，能使用http，而不是是https -->
+<network-security-config>
+	<base-config cleartextTrafficPermitted="true" />
+</network-security-config>
